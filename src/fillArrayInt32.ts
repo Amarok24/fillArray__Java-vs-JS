@@ -13,7 +13,7 @@ function fillArrayInt32(max?: number) {
     console.log("No parameter provided, using default " + maxNum);
   }
 
-  arr = new Int32Array(maxNum); // array in JS will still be dynamic, .push() possible
+  arr = new Int32Array(maxNum); // fixed length array
 
   console.time("grow");
 
@@ -21,6 +21,7 @@ function fillArrayInt32(max?: number) {
     arr[i] = i;
   }
 
+  arr.push();
   console.timeEnd("grow");
 }
 
