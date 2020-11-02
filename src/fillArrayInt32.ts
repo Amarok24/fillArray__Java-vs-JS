@@ -21,7 +21,6 @@ function fillArrayInt32(max?: number) {
     arr[i] = i;
   }
 
-  arr.push();
   console.timeEnd("grow");
 }
 
