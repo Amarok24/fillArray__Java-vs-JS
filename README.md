@@ -57,3 +57,10 @@ Deno { deno: "1.5.1", v8: "8.7.220.3", typescript: "4.0.3" }
 - 4ms
 - 5ms
 - AVERAGE: 4.3ms (speed in NodeJS is equivalent)
+
+## fillArrayInt32.ts
+Deno { deno: "1.5.1", v8: "8.7.220.3", typescript: "4.0.3" }
+- 5ms
+- 5ms
+- 6ms
+- AVERAGE: 5.7ms (speed in NodeJS is equivalent)
