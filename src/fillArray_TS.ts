@@ -3,7 +3,7 @@
  * Version for backend (Node, Deno)
  */
 function fillArray_TS(max?: number) {
-  let arr = [];
+  let arr: number[];
   let maxNum = 1000000; // by default 1 million numbers in array
 
   if (max) {
