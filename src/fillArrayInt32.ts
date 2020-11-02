@@ -1,5 +1,5 @@
 /**
- * Algorithm which fills an array (pre-defined length) with numbers
+ * Algorithm which fills an fixed length array with integers
  * Version for backend (Node, Deno)
  */
 function fillArrayInt32(max?: number) {
