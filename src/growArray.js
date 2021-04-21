@@ -23,7 +23,7 @@ function growArray(max = null) {
 
 
 /*
-Intel i7 2.9 GHz, Windows 10 64bit, Java OpenJDK 15.0.1
+Intel i7 2.9 GHz, Windows 10 64bit
 
 3 test runs with parameters: 1000002, 1000003, 1000004 (to avoid any runtime caching)
 
